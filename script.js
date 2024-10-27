@@ -46,7 +46,7 @@ function displayQuestion() {
             document.getElementById('answer2').style.display = "none";
         }
     } else {
-        document.getElementById('question').innerText = "Quiz complete. Result: [Your Fate Awaits]";
+        document.getElementById('question').innerText = "Quiz complete. Result: [I knew it was you!]";
         document.getElementById('answer1').style.display = "none";
         document.getElementById('answer2').style.display = "none";
     }
